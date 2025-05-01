@@ -27,5 +27,32 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#6639ba&#34;&gt;summary&lt;/span&gt;&lt;span style=&#34;color:#1f2328&#34;&gt;(&lt;/span&gt;model&lt;span style=&#34;color:#1f2328&#34;&gt;)&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/blog/about/about/</link>
+      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/about/about/</guid>
+      <description>&lt;h2 id=&#34;about-yohan&#34;&gt;About Yohan&lt;/h2&gt;
+&lt;p&gt;Yohan is a researcher in the fields of Algebraic Topology, Quantum Mechanics, and Multiversal Theory. He holds a BA in Mathematics and Physics from the College of Wooster (2024).&lt;/p&gt;
+&lt;h3 id=&#34;education&#34;&gt;Education&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;BA in Mathematics and Physics from College of Wooster (2024)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;interests&#34;&gt;Interests&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Algebraic Topology&lt;/li&gt;
+&lt;li&gt;Quantum Mechanics&lt;/li&gt;
+&lt;li&gt;Multiversal Theory&lt;/li&gt;
+&lt;li&gt;Advanced Computational Methods&lt;/li&gt;
+&lt;li&gt;Non-Euclidean Geometry&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;contact&#34;&gt;Contact&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Email: &lt;a href=&#34;mailto:yohannesabateneh@gmail.com&#34;&gt;yohannesabateneh@gmail.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Twitter: &lt;a href=&#34;https://twitter.com/username&#34;&gt;@username&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Google Scholar: &lt;a href=&#34;https://scholar.google.com/citations?user=username&#34;&gt;Yohan on Google Scholar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;GitHub: &lt;a href=&#34;https://github.com/username&#34;&gt;Yohan on GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
   </channel>
 </rss>

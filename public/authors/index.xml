@@ -9,10 +9,10 @@
     <lastBuildDate>Thu, 01 May 2025 12:00:00 -0500</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/authors/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Reed Richards</title>
-      <link>http://localhost:1313/blog/authors/reed-richards/</link>
+      <title>Yohan</title>
+      <link>http://localhost:1313/blog/authors/yohan/</link>
       <pubDate>Thu, 01 May 2025 12:00:00 -0500</pubDate>
-      <guid>http://localhost:1313/blog/authors/reed-richards/</guid>
+      <guid>http://localhost:1313/blog/authors/yohan/</guid>
       <description></description>
     </item>
   </channel>

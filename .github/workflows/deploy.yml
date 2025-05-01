@@ -1,0 +1,22 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: recursive  # Fetch PaperMod submodule
+      - uses: actions/setup-hugo@v1
+        with:
+          hugo-version: 'latest'
+      - run: hugo --minify
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}  # Escape the opening brace with a backtick
+          publish_dir: ./public

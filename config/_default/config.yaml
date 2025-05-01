@@ -1,75 +1,90 @@
-title: "The Bridge: Multiversal Research"
 baseURL: "https://yohab-creator.github.io/blog/"
 languageCode: "en-us"
-theme: PaperMod  
+title: "The Bridge: Multiversal Research"
+theme: "PaperMod"
 
 markup:
   highlight:
     style: github
-  mathRenderer: katex  # For mathematical notation
+  goldmark:
+    renderer:
+      unsafe: true
+  math:
+    enable: true
+    render: katex
 
 taxonomies:
-  category: categories
-  tag: tags
-  series: series
-  author: authors
+  category: "categories"
+  tag: "tags"
+  series: "series"
+  author: "authors"
 
 menu:
   main:
-    - name: Home
+    - identifier: "home"
+      name: "Home"
       url: "/"
       weight: 10
-    - name: Research
+    - identifier: "research"
+      name: "Research"
       url: "/projects/"
       weight: 20
-    - name: Publications
+    - identifier: "publications" 
+      name: "Publications"
       url: "/publications/"
       weight: 30
-    - name: Blog
+    - identifier: "blog"
+      name: "Blog"
       url: "/posts/"
       weight: 40
-    - name: Contact
+    - identifier: "contact"
+      name: "Contact"
       url: "#contact"
       weight: 50
+    - identifier: "about"
+      name: "About Me"
+      url: "/about/"
+      weight: 60
 
 params:
-  theme: minimal
-  font: classic
-  font_size: L
-  site_type: Person
+  hideMeta: true      
+  hideAuthor: true     # PaperMod native setting
+  showReadingTime: false
+  env: production
+  defaultTheme: "minimal"
   description: "Advanced research across disciplinary boundaries"
+  
+  homeInfoParams:
+    Title: "The Bridge: Multiversal Research"
+    Content: "Explorations across topology, quantum mechanics, and multiverse theory."
+
   author:
-    name: Dr. Reed Richards
-    role: Director of Future Foundation
-    organizations:
-      - name: Future Foundation
-        url: ""
+    name: "Yohan"
+    role: "Researcher"
     education:
       courses:
-        - course: PhD in Physics
-          institution: California Institute of Technology
-          year: 2003
-        - course: MS in Engineering
-          institution: Massachusetts Institute of Technology
-          year: 2001
-        - course: BSc in Physics
-          institution: Harvard University
-          year: 1999
+        - course: "BA in Mathematics and Physics"
+          institution: "College of Wooster"
+          year: 2024
     interests:
-      - Quantum Mechanics
-      - Multiversal Theory
-      - Advanced Computational Methods
-      - Non-Euclidean Geometry
+      - "Algebraic Topology"
+      - "Quantum Mechanics" 
+      - "Multiversal Theory"
+      - "Advanced Computational Methods"
+      - "Non-Euclidean Geometry"
     social:
-      - icon: envelope
-        icon_pack: fas
-        link: 'mailto:reed@futurefoundation.org'
-      - icon: twitter
-        icon_pack: fab
-        link: https://twitter.com/username
-      - icon: google-scholar
-        icon_pack: ai
-        link: https://scholar.google.com/citations?user=username
-      - icon: github
-        icon_pack: fab
-        link: https://github.com/username
+      - icon: "envelope"
+        icon_pack: "fas"
+        link: "mailto:yohannesabateneh@gmail.com"
+      - icon: "twitter"
+        icon_pack: "fab"
+        link: "https://twitter.com/username"
+      - icon: "google-scholar"
+        icon_pack: "ai"
+        link: "https://scholar.google.com/citations?user=username"
+      - icon: "github"
+        icon_pack: "fab"
+        link: "https://github.com/username"
+
+  mainSections:
+    - "posts"

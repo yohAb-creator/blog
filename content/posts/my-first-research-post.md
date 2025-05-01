@@ -4,7 +4,7 @@ date: 2025-05-01T12:00:00-05:00
 draft: false
 tags: ["research", "physics", "multiversal-theory"]
 categories: ["Research Notes"]
-authors: ["Reed Richards"]
+authors: ["Yohan"]
 math: true
 diagram: true
 featured: false

@@ -1,0 +1,27 @@
+{{ define "main" }}
+<article>
+  <!-- Post Title and Metadata -->
+  <h1>{{ .Title }}</h1>
+  <p><em>{{ .Date.Format "January 2, 2025" }}</em></p>
+  <p>By {{ .Site.Params.author.name }} ({{ .Site.Params.author.role }})</p>
+
+  <!-- Post Content -->
+  {{ if .Params.math }}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "$", right: "$", display: false}
+          ]
+        });
+      });
+    </script>
+  {{ end }}
+
+  {{ .Content }} <!-- This will render the post content (your markdown content) -->
+</article>
+{{ end }}

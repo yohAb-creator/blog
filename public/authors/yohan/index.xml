@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Reed Richards on The Bridge: Multiversal Research</title>
-    <link>http://localhost:1313/blog/authors/reed-richards/</link>
-    <description>Recent content in Reed Richards on The Bridge: Multiversal Research</description>
+    <title>Yohan on The Bridge: Multiversal Research</title>
+    <link>http://localhost:1313/blog/authors/yohan/</link>
+    <description>Recent content in Yohan on The Bridge: Multiversal Research</description>
     <generator>Hugo -- 0.147.0</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 01 May 2025 12:00:00 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/authors/reed-richards/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/authors/yohan/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Research Post</title>
       <link>http://localhost:1313/blog/posts/my-first-research-post/</link>
