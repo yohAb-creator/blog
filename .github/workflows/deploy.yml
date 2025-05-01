@@ -10,13 +10,19 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          submodules: recursive  # Fetch PaperMod submodule
-      - uses: actions/setup-hugo@v1
+          submodules: recursive
+          fetch-depth: 0  # Critical for PaperMod submodules
+
+      - uses: actions/setup-hugo@v2
         with:
           hugo-version: 'latest'
-      - run: hugo --minify
+          extended: true  # Required for PaperMod
+
+      - run: hugo --minify --gc --cleanDestinationDir
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}  # Escape the opening brace with a backtick
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
+          keep_files: false  # Clean old files
